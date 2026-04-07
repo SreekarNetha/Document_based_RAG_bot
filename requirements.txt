@@ -1,0 +1,8 @@
+streamlit
+asyncio
+requests
+PyPDF2
+python-docx
+sentence-transformers
+chromadb
+langchain
