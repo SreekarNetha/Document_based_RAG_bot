@@ -1,0 +1,33 @@
+you're an AIML engineer with strong expertise in python and you're assigned a task to build an application.
+
+objective
+the goal is to build an application which uses the api key entered by the user and access the model and generates the responses depending on the file uploaded by the user.
+
+requirements of the application
+it should take an input file upload from the user and the user file maybe a word document or pdf
+the application has to analyze the file and perform chunking and convert the file into vector embeddings
+it should have a default llm model (accessed through api) and that model interacts and responds to the user questions depending on the file uploaded by the user. The default llm model should not be hardcoded
+use an open source completely free llm model which doesn't require authentication or login or key for the default model
+User can enter the api and key for an llm of his choice and the interaction should be done by the model of whose api is provided by the user. so that the application allows user to use model of his choice due to any limitation of current model without rebuilding the environment
+
+Tech stack to use for building the application
+use python for backend
+use async functions to enable multi user support
+use streamlit for frontend through which user can interact seamlessly
+the vector embeddings are stored in a vector database
+keep the log of user queries and the responses
+
+frontend user interface
+user interface should consist of the column to upload a file(docx or word or pdf)
+user interface should consist of a column through which user can enter the api of his choice and it should display enter you api here
+it should consist of another column where the user can enter the key for the api of his choice and it should display enter api key here
+ all these contents in the frontend are to be vertically stacked one above the other on the top half of the page
+it should consist of a query bar at the bottom of the page where the user can enter the query and interact with the model to get responses based on the file uploaded by the user.
+file upload by the user is mandatory.
+the front end should display an animation something like (fetching the file generating responses) until the response is generated and displayed so the user is engaged and latency issues are handled
+
+deliverables
+you're supposed to deliver an single python streamlit code for the application to function as described
+if anything unexpected happens the application should not crash instead it should rectify and display the error to the user as a dialog box
+
+before delivering the code verify wether all the requirements are met and if requirement is missing integrate it and deliver a fully functional code with all the requirements and functionality as described.
