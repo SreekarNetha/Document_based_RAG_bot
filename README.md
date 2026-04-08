@@ -33,8 +33,8 @@ A Streamlit-based application that allows users to upload documents (PDF/DOCX) a
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-name>
+git clone https://github.com/SreekarNetha/Document_based_RAG_bot
+cd https://github.com/SreekarNetha/Document_based_RAG_bot
 ```
 
 ### 2. Install dependencies
@@ -143,6 +143,3 @@ export API_KEY=your_api_key
 
 This project is open-source and available under the MIT License.
 
----
-
-If you want, I can also **pin exact versions (recommended for deployment)** or create a **Dockerfile** for this project.
